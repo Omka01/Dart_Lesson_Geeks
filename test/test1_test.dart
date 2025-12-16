@@ -1,4 +1,0 @@
-void main() {
-  var result = (10 + 5) * 2 - 8 / 4;
-  print(result);
-}
