@@ -31,16 +31,16 @@ void main() {
   greet();
   greet();
 
-  // 2️⃣ introduce()
+  //introduce()
   introduce("Alex", 25);
   introduce("Maria", 30);
   introduce("John", 20);
 
-  // 3️⃣ addNumbers()
+  //addNumbers()
   int sum = addNumbers(5, 8);
   print("Sum of 5 and 8 is $sum.");
 
-  // 4️⃣ calculateDiscount()
+  //calculateDiscount()
   double price1 = calculateDiscount(price: 100);
   print("Final price: $price1");
 
@@ -50,6 +50,6 @@ void main() {
   double price3 = calculateDiscount(price: 100, discount: 10, tax: 5);
   print("Final price: $price3");
 
-  // 🔚 Total calls
+  //Total calls
   print("Total function calls: $totalCalls");
 }
